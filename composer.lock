@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c284a9c122da36c99a8b6597bdce7aa6",
-    "content-hash": "8b1485987e7c5949da82435d403e52e8",
+    "hash": "f4d5394a720dd2544878ba5e914d7c37",
+    "content-hash": "5514a2fe372dc7e3130247a4a2e3f0d9",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -305,6 +305,57 @@
                 "tokenizer"
             ],
             "time": "2015-12-05 17:17:57"
+        },
+        {
+            "name": "jpush/jpush",
+            "version": "v3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jpush/jpush-api-php-client.git",
+                "reference": "ec3de7e26f1e1ae89f7c5a2dd545a5da87a618c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/jpush/jpush-api-php-client/ec3de7e26f1e1ae89f7c5a2dd545a5da87a618c8.zip",
+                "reference": "ec3de7e26f1e1ae89f7c5a2dd545a5da87a618c8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "jpush": "src/"
+                },
+                "files": [
+                    "src/JPush/core/JPush.php",
+                    "src/JPush/core/DevicePayload.php",
+                    "src/JPush/core/JPushException.php",
+                    "src/JPush/core/PushPayload.php",
+                    "src/JPush/core/ReportPayload.php",
+                    "src/JPush/core/SchedulePayload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "JPush",
+                    "email": "support@jpush.cn",
+                    "homepage": "https://www.jpush.cn/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "JPush API PHP Client",
+            "homepage": "http://docs.jpush.cn/display/dev/Push-API-v3",
+            "time": "2016-05-26 10:51:12"
         },
         {
             "name": "laravel/framework",
