@@ -1,0 +1,4 @@
+/data/*.lock
+/data/*.php
+/data/*/*
+!/data/*/index.htm
